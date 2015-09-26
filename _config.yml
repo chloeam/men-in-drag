@@ -1,14 +1,41 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# Site-wide Settings
 
-# Build settings
+title: Site Title
+tagline: Short tagline (optional)
+description: "This should be a description of your site that's no more than 160 characters long. This helps with search engines. You can edit this in _config.yml."
+baseurl: "" # subpath of your site e.g. /blog/, like if using github project page. Don't change unless you know what you're doing
+locale: en_US
+url: "http://yourdomain.com"
+repo: https://github.com/user/repository
+google_analytics: UA-whatever
+
+
+# Jekyll Configuration
+
 markdown: kramdown
+permalink: /:title/
+gems: 
+  - bourbon
+  - neat
+
+sass:
+  sass_dir: assets/stylesheets
+
+
+# Site Owner. Comment out what doesn't apply to you or you don't want to link to
+
+owner:
+  name: Chloe Atchue-Mamlet
+  email: chloe793@gmail.com
+  twitter: chloe793
+  facebook: your-facebook
+  google_plus: your-gplus
+  linked_in: full-link # not just username, must be full profile link!
+  instagram: your-instagram
+  behance: chloeam
+  dribbble: your-dribbble
+  github: chloe793
+  codepen: your-codepen
+  disqus: chloeam
+  bio: "This is your personal or professional bio that can be edited, along with many other things, in the _config.yml file in your root directory. Check it out!"
+  picture: /assets/images/chloe.jpg # path to your picture. Remove if you don't want to show your picture.
