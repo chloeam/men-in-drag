@@ -1,0 +1,42 @@
+.site-header {
+  //height: 20vh;
+  background: $primary-color;
+  color: $white;
+  text-align: center;
+
+  h1 {
+    margin-top: 0;
+    font-size: $font-XXXXL;
+    font-weight: 400;
+    color: $white;
+    padding-top: $leading;
+  }
+
+  p {
+    font-size: $font-M;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    margin-top: $leading / 2;
+  }
+}
+
+.site-nav {
+  margin: $leading auto;
+  margin-bottom: 0;
+  padding-bottom: $leading / 2;
+  width: 70%;
+  @include display(flex);
+  @include justify-content(space-around);
+
+  a {
+    color: $white;
+    text-decoration: none;
+    font-size: $font-S;
+    padding-bottom: 3px;
+    border-bottom: 3px solid $primary-color;
+
+    &:hover {
+      border-bottom: 3px solid $white;
+    }
+  }
+}

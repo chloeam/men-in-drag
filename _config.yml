@@ -1,13 +1,13 @@
 # Site-wide Settings
 
-title: Site Title
-tagline: Short tagline (optional)
-description: "This should be a description of your site that's no more than 160 characters long. This helps with search engines. You can edit this in _config.yml."
+title: Men in Drag
+tagline: Female A Cappella
+description: "Men in Drag is a female a cappella group from the University of Chicago"
 baseurl: "" # subpath of your site e.g. /blog/, like if using github project page. Don't change unless you know what you're doing
 locale: en_US
-url: "http://yourdomain.com"
-repo: https://github.com/user/repository
-google_analytics: UA-whatever
+url: ""
+repo: https://github.com/chloeam/men-in-drag
+#google_analytics: UA-whatever
 
 
 # Jekyll Configuration
@@ -24,18 +24,14 @@ sass:
 
 # Site Owner. Comment out what doesn't apply to you or you don't want to link to
 
-owner:
-  name: Chloe Atchue-Mamlet
-  email: chloe793@gmail.com
-  twitter: chloe793
-  facebook: your-facebook
+group:
+  name: Men in Drag
+  email: mid@menindrag.org
+  twitter: ucmenindrag
+  facebook: ucmenindrag
+  youtube: midacappella
   google_plus: your-gplus
-  linked_in: full-link # not just username, must be full profile link!
   instagram: your-instagram
-  behance: chloeam
-  dribbble: your-dribbble
-  github: chloe793
-  codepen: your-codepen
   disqus: chloeam
-  bio: "This is your personal or professional bio that can be edited, along with many other things, in the _config.yml file in your root directory. Check it out!"
+  bio: "MiD bio goes here"
   picture: /assets/images/chloe.jpg # path to your picture. Remove if you don't want to show your picture.

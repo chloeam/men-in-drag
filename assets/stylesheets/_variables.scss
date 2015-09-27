@@ -4,7 +4,7 @@ $white: #fff;
 $black: #000;
 $gray: #828282;
 
-$primary-color: $gray;
+$primary-color: #2198E5; // MiD blue
 $background-color: #fdfdfd;
 $text-color: #333;
 $link-color: $primary-color;
@@ -37,9 +37,9 @@ $rss: #fa9b39;
 
 // TYPOGRAPHY
 
-$base-font: serif;
-$heading-font: sans-serif;
-$secondary-heading-font: serif;
+$base-font: 'Roboto', sans-serif;
+$heading-font: 'Bitter', serif;
+$secondary-heading-font: $base-font;
 $caption-font: $base-font;
 
 $base-font-size: 16;
