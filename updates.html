@@ -3,3 +3,7 @@ layout: page
 title: Updates
 permalink: /updates/
 ---
+
+{% for update in site.posts %}
+  <a href="{{ baseurl }}{{ update.url }}"><h2>{{ update.title }}</h2></a>
+{% endfor %}
