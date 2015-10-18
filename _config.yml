@@ -27,11 +27,15 @@ sass:
 group:
   name: Men in Drag
   email: mid@menindrag.org
+  phone: "773-236-1MID (1643)"
   twitter: ucmenindrag
   facebook: ucmenindrag
   youtube: midacappella
   google_plus: your-gplus
   instagram: your-instagram
   disqus: chloeam
-  bio: "MiD bio goes here"
   picture: /assets/images/chloe.jpg # path to your picture. Remove if you don't want to show your picture.
+
+positions:
+  president: Kat Bovbjerg
+  music_director: Frances Bernstein
