@@ -1,0 +1,1 @@
+Men in Drag (no men, occasional drag!) is an all-female, student-run a cappella group at The University of Chicago. Its members embrace all that the name implies, challenging gender conventions and bringing passion and swag to all-female a cappella. Whether they're donning dresses and heels or leather and boots, Men in Drag is always rocking out.
