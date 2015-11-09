@@ -1,42 +1,39 @@
+$navigation-padding: 15px;
+$navigation-bg-color: $black;
+$navigation-font-color: $white;
+$navigation-underline-width: 3px;
+$navigation-height: 10vh;
+
 .site-header {
-  //height: 20vh;
-  background: $primary-color;
+  background: $navigation-bg-color;
   color: $white;
-  text-align: center;
+  @include clearfix;
+  height: $navigation-height;
+  font-size: $font-S;
+}
 
-  h1 {
-    margin-top: 0;
-    font-size: $font-XXXXL;
-    font-weight: 400;
-    color: $white;
-    padding-top: $leading;
-  }
-
-  p {
-    font-size: $font-M;
-    text-transform: uppercase;
-    letter-spacing: 0.5em;
-    margin-top: $leading / 2;
-  }
+.home {
+  float: left;
+  padding-left: $navigation-padding;
+  font-family: $heading-font;
+  color: $navigation-font-color;
+  line-height: $navigation-height;
 }
 
 .site-nav {
-  margin: $leading auto;
-  margin-bottom: 0;
-  padding-bottom: $leading / 2;
-  width: 70%;
-  @include display(flex);
-  @include justify-content(space-around);
+  float: right;
+  padding-right: $navigation-padding;
 
   a {
-    color: $white;
+    line-height: $navigation-height;
+    margin-left: 15px;
+    color: $navigation-font-color;
     text-decoration: none;
-    font-size: $font-S;
-    padding-bottom: 3px;
-    border-bottom: 3px solid $primary-color;
+    padding-bottom: $navigation-underline-width;
+    border-bottom: $navigation-underline-width solid $navigation-bg-color;
 
     &:hover {
-      border-bottom: 3px solid $white;
+      border-bottom: $navigation-underline-width solid $navigation-font-color;
     }
   }
 }

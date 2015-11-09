@@ -1,7 +1,7 @@
 # Site-wide Settings
 
 title: Men in Drag
-tagline: Female A Cappella
+tagline: Female a cappella like you've never heard it before
 description: "Men in Drag is a female a cappella group from the University of Chicago"
 baseurl: "" # subpath of your site e.g. /blog/, like if using github project page. Don't change unless you know what you're doing
 locale: en_US
