@@ -1,0 +1,43 @@
+.hero {
+  height: 90vh;
+  background-image: url(/assets/images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: $white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: $font-XXXXL;
+  }
+  p {
+    font-size: $font-L;
+    padding-top: $leading;
+  }
+}
+
+.home-bio-container {
+  @include outer-container;
+  margin-top: $leading * 3;
+  margin-bottom: $leading * 2;
+}
+
+.home-bio {
+  @include span-columns(6);
+  @include shift(3);
+  font-size: $font-M;
+}
+
+.home-button-container {
+  @include outer-container;
+}
+
+.home-buttons {
+  @include shift(4);
+  a {
+    @extend .button;
+    @include span-columns(3);
+  }
+}
